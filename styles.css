@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-image: url(./images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
+}
+
+.logo {
+    max-height: 75px;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.illustration {
+    max-width: 600px;
+    margin-bottom: 80px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+p {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.824);
+    margin-bottom: 55px;
+    padding: 0 5px;
+}
+
+a.register {
+    color: hsl(257, 40%, 49%);
+    font-size: 25px;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 350px;
+    padding: 22px 16px;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-shadow: 3px 6px 15px hsla(256, 38%, 12%, 0.372);
+}
+
+a.register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    transition: all .3s ease;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.social-logo {
+    font-size: 60px;
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.social-logo:hover {
+    color: hsl(300, 69%, 71%);
+    transition: all .3s ease;
+}
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        height: auto;
+        background-image: url(./images/bg-desktop.svg);
+        background-size: auto;
+    }
+
+    .card {
+        flex-direction: row;
+        padding: 0px;      
+    }
+
+    .card-description {
+        display: flex;
+        flex-direction: column;
+        max-width: 530px;
+        max-height: 600px;
+        align-items: flex-start;
+        margin-top: 200px;
+    }
+
+    .card-heading {
+        margin: 50px 20px 0 0;
+    }
+
+    .logo {
+        margin-bottom: 90px;
+        max-height: 50px;
+    }
+
+    .illustration {
+        max-width: 800px;
+        max-height: 800px;
+    }
+
+    .social-logo {
+        font-size: 40px;
+        padding: 0 10px;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        padding: 0 5px;
+        text-align: left;
+    }
+    
+    h1 {
+        font-size: 32px;
+        padding-right: 40px;
+        text-align: left;
+        padding: 10px 0;
+        margin: 40px 0 0 0;
+    }
+
+    a.register {
+        font-size: 18px;
+        width: 200px;
+        padding: 13px 0px;
+    }
+
+    .card-info {
+        align-items: flex-start;
+    }
+
+    .social-media {
+        margin-left: 350px;
+        margin-top: 190px;
+    }
+}
