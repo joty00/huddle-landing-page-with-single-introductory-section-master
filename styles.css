@@ -143,10 +143,9 @@ a.register:hover {
     }
     
     h1 {
-        font-size: 32px;
-        padding-right: 40px;
+        font-size: 35px;
         text-align: left;
-        padding: 10px 0;
+        padding: 10px 60px 0 0;
         margin: 40px 0 0 0;
     }
 
